@@ -72,6 +72,13 @@ h1 {
   color: #f9c8b7;
   letter-spacing: 1px;
 }
+.subline {
+  font-size: 0.95rem;
+  color: #f5e1d9;
+  margin-top: 4px;
+  letter-spacing: 0.5px;
+}
+
 .btn-primary {
   background-color: #c97b63;
   color: white;
