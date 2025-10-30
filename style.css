@@ -9,13 +9,15 @@ body {
 /* HERO */
 .hero {
   position: relative;
-  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.3)), 
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.3)),
               url('https://images.unsplash.com/photo-1508182311256-e3f7d2e45e6c?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;
   color: white;
   text-align: center;
   padding: 120px 20px;
   transition: all 0.5s ease;
+  overflow: hidden;   /* ✅ prevents the scrollbar flash */
 }
+
 .hero h1 {
   font-size: 2.5rem;
   margin: 10px 0;
