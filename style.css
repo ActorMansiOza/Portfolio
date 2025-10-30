@@ -55,6 +55,27 @@ h1 {
 .btn-primary:hover {
   background-color: #b46b54;
 }
+/* INSTAGRAM BUTTON */
+.btn-instagram {
+  background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af, #515bd4);
+  color: white;
+  padding: 10px 22px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+  display: inline-block;
+  margin-top: 12px;
+  transition: opacity 0.3s ease;
+}
+.btn-instagram:hover {
+  opacity: 0.85;
+}
+.hero-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
 .btn-secondary {
   background-color: transparent;
   border: 2px solid #c97b63;
